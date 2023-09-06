@@ -1,20 +1,8 @@
 # CỜ CARO
 
-
-![GitHub contributors](https://img.shields.io/github/contributors/TienNHM/caro_console) 
-![GitHub issues](https://img.shields.io/github/issues/TienNHM/caro_console?color=red) 
-![GitHub top language](https://img.shields.io/github/languages/top/TienNHM/caro_console?color=cyan) 
-![GitHub repo size](https://img.shields.io/github/repo-size/TienNHM/caro_console)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TienNHM/caro_console) 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TienNHM/caro_console?color=g) 
-![GitHub last commit](https://img.shields.io/github/last-commit/TienNHM/caro_console?color=yellow) 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/TienNHM/caro_console)
-
 1. ***Vẽ bàn cờ***
 
 Bàn cờ thực tế mà người chơi tương tác có kích thước 20 x 20. Tuy nhiên, việc biểu diễn bàn cờ trên màn hình console có chút khác biệt. Vì chúng ta vừa phải in phần không gian trống cho mỗi ô, cùng với phần viền của ô, nên 1 ô vuông 1x1 thực tế lại có kích thước trên màn hình là 5 x 3 (chiều rộng: 2 thanh đứng | và 3 khoảng trắng; chiều cao: 2 thanh ngang ── và 1 khoảng trắng). Có thể các bạn sẽ đặt câu hỏi, tại sao chiều rộng có 3 khoảng trắng, còn chiều cao chỉ có 1 khoảng trắng. Câu trả lời là do mỗi kí tự in trên mang hình console có chiều cao lớn hơn chiều rộng.
-
-![Fig.1](https://github.com/Titytus/caro_console/blob/master/board.png)
 
 ```c
 void veBanCo(){
